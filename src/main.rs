@@ -1,3 +1,5 @@
+mod spinner;
+
 fn main() {
-    println!("Hello, world!");
+    spinner::start_spinner(20, 100);
 }
